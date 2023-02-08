@@ -1,0 +1,22 @@
+.landingPage_container{
+    padding: 20px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 25% 75%;
+    grid-row: auto auto auto;
+    justify-content: space-between;
+
+}
+.landingPage_page > * {
+    width: 100%;
+  }
+
+  .landingPage_page > * {
+    grid-column: 2/3;
+  }
+.landingPage_menu{
+    grid-column: 1/2;   
+}
+.landingPage_page{
+    grid-column: 2/3;
+}
